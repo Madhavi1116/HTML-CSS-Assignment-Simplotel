@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(253, 255, 182), #f094a3);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff657f;
+    font-weight: bold;
+    padding: 5px 170px;
+}
+
+.container a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+
+.box1{
+    padding-left: 100px;
+    padding-top: 150px;
+    font-size: large;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.button{
+    background-color: #ff657f;
+    color: white;
+    padding: 10px 89px;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+}
+.box{
+    width: 50%;
+    height: 94%;
+    background-image: url("pexels-robin-stickel-70497.jpg");
+    background-size: cover;
+    float: right;
+    background-position: 90%;
+}
+.img{
+    float: right;
+    background-image: url("menu-bar.png");
+}
+@media (min-width: 601px) and (max-width: 900px) {
+    /* Adjust styles for screens between 600px and 900px */
+    .container {
+        padding: 5px 50px;
+    }
+
+    .box1 {
+        padding-left: 50px;
+        padding-top: 100px;
+    }
+}
+
+.container1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(253, 255, 182), #f094a3);
+    background-position: center;
+    background-size: cover;
+}
+.card1{
+    background-image: url(pexels-rachel-claire-6752433.jpg);
+    width: 200px;
+    height: 230px;
+    top: 110px;
+    left: 150px;
+    padding: 0px 40px;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+}
+.card2{
+    background-image: url(pexels-eva-bronzini-6141651.jpg);
+    width: 200px;
+    height: 230px;
+    top: 360px;
+    left: 150px;
+    padding: 0px 40px;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+}
+.card3{
+    background-image: url(pexels-mister-mister-3434523.jpg);
+    width: 200px;
+    height: 440px;
+    top: 110px;
+    bottom: 0px;
+    right: 20px;
+    left: 470px;
+    padding: 20px 60px;
+    background-position: center;
+    position: absolute;
+    background-size: cover;
+}
+.card4{
+    width: 550px;
+    height: 260px;
+    top: 210px;
+    left: 810px;
+    bottom: 200px;
+    position: absolute;
+    background-size: cover;
+    background-color: #f88379;
+    font-size: 170%;
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+}
+.example{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+.boxs{
+    top: 235px;
+    left: 70px;
+    bottom: 180px;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    background-image: url(icons8-arrow-30.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+.card4 pre{
+    font-size: 60px;
+}
+.txt{
+    padding-top: 5%;
+}
+
